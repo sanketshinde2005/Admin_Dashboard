@@ -49,6 +49,23 @@ This Admin Dashboard is a comprehensive web application built using **React Refi
 
 ## Setup and Installation  
 
-1. Clone the repository to your local machine using:  
-   ```bash  
-   git clone https://github.com/yourusername/AdminDashboard
+1. Clone the repository to your local machine using:
+git clone https://github.com/sanketshinde2005/Admin_Dashboard
+
+
+## Future Enhancements  
+- **User Authentication**:  
+  Enable login functionality for different user roles (admin, manager, etc.).  
+
+- **Analytics Dashboard**:  
+  Add a section to display charts and metrics for performance analysis.  
+
+- **Notifications System**:  
+  Notify users about task deadlines or changes in company data.  
+
+- **Customizable Themes**:  
+  Allow users to switch between light and dark modes.
+
+
+## My work 
+https://admin-dashboard-drab-pi.vercel.app/login
