@@ -1,49 +1,54 @@
-# Admin_Dashboard
+# Admin Dashboard  
 
-<div align="center" style="margin: 30px;">
-    <a href="https://refine.dev">
-    <img alt="refine logo" src="https://refine.ams3.cdn.digitaloceanspaces.com/readme/refine-readme-banner.png">
-    </a>
-</div>
-<br/>
+## Overview  
+This Admin Dashboard is a comprehensive web application built using **React Refine** and **Dnd Kit**. It features a **Kanban Board** for work management and an **Editable Companies Tab** for managing company details. This project provides a user-friendly interface and robust functionalities to streamline workflow and data management.  
 
-This [Refine](https://github.com/refinedev/refine) project was generated with [create refine-app](https://github.com/refinedev/refine/tree/master/packages/create-refine-app).
+## Features  
+- **Kanban Board**:  
+  - Drag-and-drop functionality for task management.  
+  - Organized by columns, representing different stages of work.  
+  - Allows users to create, edit, and move tasks between columns.  
 
-## Getting Started
+- **Editable Companies Tab**:  
+  - Displays a list of companies with detailed information.  
+  - Full CRUD (Create, Read, Update, Delete) implementation for managing company data.  
+  - Search and filter functionality for efficient navigation.  
 
-A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility ✨
+- **Responsive Design**:  
+  - Ensures the dashboard is accessible and user-friendly on all devices.  
 
-Refine's hooks and components simplifies the development process and eliminates the repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.
+## Technologies Used  
+- **React Refine**: Provides a structured and scalable framework for the dashboard.  
+- **Dnd Kit**: Enables intuitive drag-and-drop interactions.  
+- **Ant Design**: Delivers a clean and modern UI.  
+- **React Router**: Handles navigation across different sections of the dashboard.  
+- **Axios**: Manages API calls for CRUD operations.  
 
-## Available Scripts
+## How It Works  
 
-### Running the development server.
+### Kanban Board  
+1. **Drag-and-Drop Functionality**:  
+   - Tasks can be moved across columns to indicate progress.  
+   - Columns represent stages such as "To Do," "In Progress," and "Completed."  
 
-```bash
-    npm run dev
-```
+2. **Task Management**:  
+   - Users can add new tasks, edit existing ones, and delete completed tasks.  
 
-### Building for production.
+### Companies Tab  
+1. **View and Manage Companies**:  
+   - Displays a detailed list of companies, including name, industry, contact details, and more.  
 
-```bash
-    npm run build
-```
+2. **CRUD Operations**:  
+   - **Add**: Users can add a new company with relevant details.  
+   - **Read**: Displays company details in a structured format.  
+   - **Update**: Edit existing company information.  
+   - **Delete**: Remove a company from the list.  
 
-### Running the production server.
+3. **Search and Filter**:  
+   - Quickly locate companies using keywords or specific criteria.  
 
-```bash
-    npm run start
-```
+## Setup and Installation  
 
-## Learn More
-
-To learn more about **Refine**, please check out the [Documentation](https://refine.dev/docs)
-
-- **NestJS Query Data Provider** [Docs](https://refine.dev/docs/data/packages/nestjs-query/)
-- **Ant Design** [Docs](https://refine.dev/docs/ui-frameworks/antd/tutorial/)
-- **React Router** [Docs](https://refine.dev/docs/core/providers/router-provider/)
-- **Custom Auth Provider** [Docs](https://refine.dev/docs/core/providers/auth-provider/)
-
-## License
-
-MIT
+1. Clone the repository to your local machine using:  
+   ```bash  
+   git clone https://github.com/yourusername/AdminDashboard
