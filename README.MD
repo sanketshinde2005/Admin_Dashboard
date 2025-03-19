@@ -68,4 +68,4 @@ git clone https://github.com/sanketshinde2005/Admin_Dashboard
 
 
 ## My work 
-https://admin-dashboard-drab-pi.vercel.app/login
+https://admin-dashboard-drab-pi.vercel.app/
